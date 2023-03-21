@@ -3,7 +3,7 @@
 ## Introduction
 C# Optimizations tips and tricks.
 
-### 1. Substring()
+### 1. ReadOnlySpan() instead of Substring()
 Instead of using ```.Substring()``` it is suggested of using [```.AsSpan()```](https://learn.microsoft.com/en-us/dotnet/api/system.memoryextensions.asspan?view=net-7.0)
 Click [here](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1846) for a detailed description
 and [here](https://learn.microsoft.com/en-us/dotnet/api/system.span-1?view=net-8.0) and then [here](https://learn.microsoft.com/en-us/dotnet/standard/memory-and-spans/memory-t-usage-guidelines)and [here](https://learn.microsoft.com/en-us/archive/msdn-magazine/2018/january/csharp-all-about-span-exploring-a-new-net-mainstay).
